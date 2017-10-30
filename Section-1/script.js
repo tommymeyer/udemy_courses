@@ -1,1 +1,5 @@
-alert('hello 3');
+document.write("Welcome!");
+
+alert("Hello there.");
+
+console.log(true);
