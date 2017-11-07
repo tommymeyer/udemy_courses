@@ -1,27 +1,46 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title></title>
+    <meta charset="UTF-8">
+    <title>Udemy JS Section 2</title>
 </head>
-
 <body>
+
     <script>
-        
 
-        var a = 5;
+
+        // var a = 5;
+        // var b = 10;
+        // var c = "5";
+
+        // b++;
+        // var d = ((b%5) > 0) ? "odd" : "even";
+
+        // console.log(typeof a == "number");
+        // console.log(typeof c == typeof "number");     
+        // console.log((d=="odd" && !(b<5) && b >= (a*2)));
+
+        var a = 4;
         var b = 10;
-        var c = "5";
-        
-        b++;
-        var d = ((b%5) > 0) ? "odd" : "even";
-        
-        console.log(typeof a == "number");
-        console.log(typeof c == typeof "number");     
-        console.log((d=="odd" && !(b<5) && b >= (a*2)));
-        
-        
-        
-    </script>
-</body>
+        var c = 21;
+        var total = a + b + c;
+        var difference = c - b - a;
 
+        console.log(a);
+        console.log(b);
+        console.log(c);
+        console.log(total);
+        console.log(difference);
+
+        var num1 = prompt("What's your number?");
+        var num2 = prompt("What's your other number?");
+        var myTotal = Number(num1) +Number(num2);
+
+        var num3 = alert("Your numbers combined equal " + myTotal + ".");
+
+
+
+    </script>
+    
+</body>
 </html>
