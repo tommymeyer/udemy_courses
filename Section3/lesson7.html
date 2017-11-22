@@ -1,23 +1,34 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title></title>
+  <meta charset="UTF-8">
+  <title>Lesson 7</title>
 </head>
-
 <body>
-    <script>
-       
-        var newHolder = ["cat","dog","rabbit","bird"];
-        newHolder[10] = "Horse";
-        newHolder.fill("fish",3,10);
-        newHolder.reverse();
-        newHolder.pop();
-        newHolder.push("sheep");
-        
-        console.log(newHolder);
+
+  <script>
+  
+    var newHolder = ["cat", "dog", "rabbit", "bird"];
+
+    // newHolder[10] = "horse";
+    // newHolder.fill("fish", 3, 10);
+    // newHolder.reverse();
+    // newHolder.pop();
+    // newHolder.push("sheep");
+    // console.log(newHolder);
     //["Horse", "fish", "fish", "fish", "fish", "fish", "fish", "fish", "rabbit", "dog", "sheep"]
 
-    </script>
-</body>
 
+    // Lesson 8
+    // var message = prompt("Guess that animal!");
+    // var posIndex = newHolder.indexOf(message);
+    // var response = (message == newHolder[posIndex]) ? "Correct" : "Nope!";
+    // alert(response);
+
+    var sliced = newHolder.slice(1, 3);
+    console.log(sliced);
+  
+  </script>
+  
+</body>
 </html>

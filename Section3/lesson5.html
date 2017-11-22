@@ -1,19 +1,21 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title></title>
+    <meta charset="UTF-8">
+    <title>Lesson 5</title>
 </head>
-
 <body>
-    <script>
-        var animals = ["cat","dog","rabbit","bird","fish"];
-        var randomIndex = Math.floor(Math.random()*animals.length);
-        var randomAnimal = animals[randomIndex];
-        var message = prompt("which index value is "+randomAnimal );
-        var response = (message == randomIndex) ? "Correct" : "Wrong it was " +  randomIndex;
-        alert(response);
-        
-    </script>
-</body>
 
+  <script>
+  
+    var animals = ["cat","dog","rabbit","bird","fish"];
+    var rand = Math.floor(Math.random() * animals.length);
+    var randAnimal = animals[rand];
+    var message = prompt("Which index value is " + randAnimal);
+    var response = (message == rand) ? "Correct" : "Wrong, it was " + rand;
+    alert(response);
+  
+  </script>
+    
+</body>
 </html>

@@ -1,38 +1,37 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title></title>
+  <meta charset="UTF-8">
+  <title>Lesson 6</title>
 </head>
-
 <body>
-    <script>
-        /*
-        var animals = ["cat","dog","rabbit","bird","fish","zebra"];
-        animals.push("sheep"); // add item at the end of an array
-        var remove1 = animals.pop(); // remove last item from the end of an array
-        
-        animals.shift(); //remove first item
-        animals.unshift("horse");//add first item to array
-        
-        animals.splice(2,1); // remove from pos number of items
-        */
-        
-        var animals = ["cat","dog","rabbit","bird","fish","zebra"];
-        var startVal = animals.length;
-        console.log(startVal);
-        animals[20] = "horse";
-        animals.fill("mouse",startVal , (animals.length-1));
-        
-        
-        //animals.sort(); // sort items by value
-        //animals.reverse(); // reverse the order of items
-        //animals.sort().reverse();
-        
-        
-        
-        console.log(animals);
-        
-    </script>
-</body>
 
+  <script>
+  
+    var animals = ["cat", "dog", "rabbit", "bird", "fish", "zebra"];
+    var start = animals.length;
+    // animals.push("sheep");
+    // var remove1 = animals.pop();
+
+    // animals.shift();
+    // animals.unshift("horse");
+
+    // animals.splice(2, 1);
+
+    // animals.reverse();
+    // animals.sort();
+    // animals.sort();
+    // animals.reverse();
+
+    // animals.sort().reverse();
+
+    animals[20] = "lizard";
+    animals.fill("mouse", start, (animals.length - 1));
+    
+    // console.log(remove1);
+    console.log(animals);
+
+  </script>
+  
+</body>
 </html>
