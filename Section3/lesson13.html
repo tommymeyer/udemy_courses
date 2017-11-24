@@ -1,28 +1,32 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title></title>
+    <meta charset="UTF-8">
+    <title>Lesson 13</title>
 </head>
-
 <body>
-    <script>
 
-        /*
-        var obj1 = new Object();
-        obj1.color = "red";
-        obj1.make = "ford";
-        console.log(obj1);
-        */
-        
-        var car = {color:"red",make:"ford",doors:5,model:"mustang"};  // literal
-        var prop = prompt("what did you want to know about the car");
-        console.log(car[prop]);
-        
-        
-        
+  <script>
+  
+    /*
+    var obj1 = new Object();
+    obj1.color = "red";
+    obj1.make = "ford";
+    console.log(obj1);
+    */
 
-        
-    </script>
+    var car = {
+      color: "black",
+      make: "tesla",
+      model: "s",
+      engine: "electric"
+      };  // literal
+
+    var prop = prompt("what did you want to know about the car");
+    car.model = "3";
+    alert(car[prop]);
+  
+  </script>
+    
 </body>
-
 </html>

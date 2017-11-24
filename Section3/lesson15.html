@@ -1,25 +1,47 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title></title>
+  <meta charset="UTF-8">
+  <title>Lesson 15</title>
 </head>
-
 <body>
-    <script>
 
+  <script>
+  
+    var car = {
+      make: "tesla",
+      model: "s",
+      color: "black",
+      engine: "electric"
+    }
 
-        var car = {color:"red",make:"ford",doors:5,model:"mustang"};  // literal
-        car.driver ="Lance";
-        for(var property in car){
-            console.log(property + " " + car[property]);
-            //console.log();           
+    // Lesson 15
+    // car.driver = "Tom";
+
+    // for (var i in car) {
+    //   console.log(i);
+    //   console.log(car[i]);
+    // }
+
+    // Lesson 16
+    var tom = {
+      age: 29,
+      hair: "blonde",
+      eyes: "blue",
+      job: "developer"
+    }
+
+    var friends = {
+      friend1: tom,
+      friend2: {
+        age: 29,
+        hair: "black"
         }
-        
-        
-        
+    }
 
-        
-    </script>
+    var friends1 = [tom, {age: 29, hair: "black"}];
+  
+  </script>
+  
 </body>
-
 </html>
