@@ -7,16 +7,22 @@
 <body>
 
   <div id="output">Hello World</div>
-  <input type="text" id="val">
+  <!-- <input type="text" id="val"> -->
+
+  <div id="welcome"></div>
 
   <script>
   
     // var output = document.getElementById('output');
-    // var val = document.getElementById('val');      
+    // var val = document.getElementById('val');
     // val.value = output.innerHTML;
-
-    console.dir(document);
+    // document.getElementById("welcome").innerHTML = "Welcome to my page!";
+    // console.dir(document);
   
+
+    var output = document.getElementById("output");
+    var prompt = prompt("What's your name, bucko?");
+    output.innerHTML = "Welcome, " + prompt + "!" + " Let's slay some dragons!";
   </script>
     
 </body>
