@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>First Website | Register</title>
+</head>
+<body>
+
+  <p><a href="index.html">Back</a></p>
+
+  <form method="POST" action="">
+    <label for="first_name">First Name</label>
+    <input type="text" id="first_name" name="firstname">
+
+    <label for="last_name">Last Name</label>
+    <input type="text" id="last_name" name="lastname">
+
+    <label for="email" required>Email</label>
+    <input type="text" id="email" name="email">
+
+    <label for="password">Password</label>
+    <input type="password" min="10" name="password">
+
+    <label for="birthday" required>Birthday</label>
+    <input type="date" id="birthday">
+
+    <label for="gender">Gender:</label>
+    <label for="male">Male</label>
+    <input type="radio" value="male" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" value="female" name="gender">
+    <label for="other">Other</label>
+    <input type="radio" value="other" name="gender">
+
+    <label for="pets">Pets:</label>
+    <label for="cat">Cat</label>
+    <input type="checkbox" name="pets" id="cat" name="cat">
+    <label for="dog">Dog</label>
+    <input type="checkbox" name="pets" id="dog" name="dog">
+
+    <select name="cars" id="cars">
+      <option value="tesla" name="tesla">Tesla Model S</option>
+      <option value="subaru" name="subaru">Subaru Forrester</option>
+      <option value="dodge" name="dodge">Dodge Challenger</option>
+    </select>
+
+    <input type="submit" value="Register">
+    <input type="submit" value="Reset">
+  </form>
+  
+</body>
+</html>
