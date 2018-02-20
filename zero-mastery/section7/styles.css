@@ -1,0 +1,43 @@
+* {
+  font-size: 1rem;
+  transition: all 500ms;
+}
+
+html {
+  font-size: 16px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 45em));
+  justify-content: center;
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  box-shadow: 0 0 1.5rem #333;
+  color: darkgreen;
+  display: inline-block;
+  font: 4rem/1em fantasy;
+  margin: 0.45em 0.5em;
+  padding: 0.625em 0.9375em 0 0.9375em;
+}
+
+figure img {
+  height: 100%;
+  width: 100%;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+@media(max-width: 600px) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
