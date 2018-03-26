@@ -1,23 +1,45 @@
-.coolTitle {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 40px;
-  transform: skewY(-10deg);
-  letter-spacing: 4px;
-  word-spacing: -8px;
-  color: tomato;
-  text-shadow: 
-    -1px -1px 0 firebrick,
-    -2px -2px 0 firebrick,
-    -3px -3px 0 firebrick,
-    -4px -4px 0 firebrick,
-    -5px -5px 0 firebrick,
-    -6px -6px 0 firebrick,
-    -7px -7px 0 firebrick,
-    -8px -8px 0 firebrick,
-    -30px 20px 40px dimgrey;
+* {
+  transition: all 200ms ease-in-out;
 }
 
-.done {
-  text-decoration: line-through;
+:root {
+  --purple: #8600a8;
+  --blue: #5ad;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+body {
+  margin: 1.25em auto;
+  padding: 0 2em;
+  max-width: 40rem;
+}
+
+h1, p {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.button {
+  border: 0.0625em solid var(--purple);
+  border-radius: 0.1875em;
+  color: var(--blue);
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.6em 1.2em;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--purple);
+  border-color: none;
+  color: #fff;
 }
