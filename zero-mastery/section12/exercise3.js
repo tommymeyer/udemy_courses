@@ -56,5 +56,3 @@
 //         return "I am totally lost!";
 //     }
 // }
-
-// const whereAmI = (username, location) => (username && location) ? ("I am not lost.") : ("I am totally lost!");
