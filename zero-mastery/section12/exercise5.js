@@ -48,7 +48,11 @@ const array = [
 // console.log(mapArray);
 
 // //Filter the array to only include users who are on team: red
+// const filterArray = array.filter((user) => {
+//   return user.team === "red";
+// });
 
+// console.log(filterArray);
 
 
 // //Find out the total score of all users using reduce
@@ -73,3 +77,12 @@ const array = [
 
 // //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
 
+// const mapArray2 = array.map((user) => {
+//   user.items = user.items.map((item) => {
+//     return item + "!";
+//   });
+
+//   return user;
+// });
+
+// console.log(mapArray2);
