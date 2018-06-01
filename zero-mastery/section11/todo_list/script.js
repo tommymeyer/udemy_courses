@@ -31,6 +31,8 @@ function addListAfterKeyPress(e) {
 
 li.addEventListener("click", function() {
   li.classList.toggle("done");
+  console.log(li);
+  
 });
 
 button.addEventListener("click", addListAfterClick);

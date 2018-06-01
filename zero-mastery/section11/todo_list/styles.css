@@ -19,5 +19,6 @@
 }
 
 .done {
+  background-color: firebrick;
   text-decoration: line-through;
 }
