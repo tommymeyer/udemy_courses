@@ -17,6 +17,5 @@ fetch(url)
       let li = createNode('li');
       li.innerHTML = value;
       append(ul, li);
-    })
-    .catch(error => console.log('error'))
-  });
+    });
+  }).catch(error => console.log('error'));
